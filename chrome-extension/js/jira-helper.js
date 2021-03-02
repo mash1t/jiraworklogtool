@@ -176,7 +176,7 @@
   }
 
   function logWork (worklog, date) {
-    worklog.started = date + 'T06:00:00.075+0000' // TODO: refactor to expected date format
+    worklog.started = date + 'T18:00:00.075+0100' // TODO: refactor to expected date format
 
     var url = `${jiraOptions.jiraUrl}/rest/api/2/issue/${worklog.jira}/worklog`
     var config = {
